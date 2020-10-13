@@ -16,6 +16,7 @@ const SignUp = () => {
     <form>
       <label>이름 </label>
       <input value={name} onChange={onChangeName} />
+      <br />
       <label>성별 </label>
       <select>
         {" "}
