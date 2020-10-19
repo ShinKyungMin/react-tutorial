@@ -19,7 +19,7 @@ const AttendanceBook = () => {
   const add = (e) => {
     // e.preventDefault();
     const id = 10;
-    setStudents(students.concat({ id: id + 1, name: name1 }));
+    setStudents(students.concat({ id: id, name: name1 }));
   };
 
   return (
